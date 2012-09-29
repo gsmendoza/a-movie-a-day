@@ -18,11 +18,12 @@ feature "Recommendations" do
     end
 
     When "I view the recommendation feed" do
-      page.visit recommendation_path(format: 'atom')
+      page.visit recommendations_path(format: 'atom')
     end
 
-    Then "I should see the recommendation", pending: true do
-      pending
+    Then "I should see the recommendation" do
+      page.should have_content @filmaster_recommendation.title
+      page.should have_content @filmaster_recommendation.description
     end
   end
 end

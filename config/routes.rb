@@ -1,3 +1,3 @@
 Movieaday::Application.routes.draw do
-  resource :recommendation, only: [:show]
+  resources :recommendations, only: [:index]
 end

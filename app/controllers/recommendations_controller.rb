@@ -1,4 +1,5 @@
 class RecommendationsController < ApplicationController
-  def show
+  def index
+    @recommendation = Recommendation.latest
   end
 end
