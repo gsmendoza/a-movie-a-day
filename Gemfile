@@ -24,13 +24,18 @@ group :production do
 end
 
 group :development, :test do
-  gem "rspec-rails", "~> 2.0"
+  gem "rspec-rails"
   gem 'sqlite3'
 end
 
 group :test do
   gem "capybara"
   gem 'pry'
+
+  # Try requiring rspec-rails in this group too so that it is loaded before
+  # rspec-example_steps. Hopefully this will prevent the
+  # "unitialized constant RSpec::Core::ExampleGroup::MetadataHashBuilder" error.
+  gem "rspec-rails"
 
   # Given/When/Then steps for RSpec examples
   gem "rspec-example_steps"
