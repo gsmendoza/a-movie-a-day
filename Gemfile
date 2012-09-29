@@ -42,3 +42,9 @@ group :development, :test do
   gem "rspec-rails", "~> 2.0"
   gem 'sqlite3'
 end
+
+group :test do
+  gem "rspec-example_steps"
+end
+
+
