@@ -1,0 +1,7 @@
+/.bundle
+/db/*.sqlite3
+/files
+/log/*.log
+/tmp
+
+
