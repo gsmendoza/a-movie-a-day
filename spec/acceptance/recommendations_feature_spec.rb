@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'rspec/example_steps'
 
 feature "Recommendations" do
   before do
