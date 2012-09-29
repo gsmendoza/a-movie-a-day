@@ -4,7 +4,6 @@ rvm:
 
 env:
   - DB=sqlite
-  - DB=postgresql
 
 script:
   - 'cp config/database.travis.yml config/database.yml'
