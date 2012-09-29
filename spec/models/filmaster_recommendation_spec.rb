@@ -12,4 +12,16 @@ describe FilmasterRecommendation do
       end
     end
   end
+
+  describe "#build_recommendation" do
+    it "should build a new recommendation from the filmaster fecommendation" do
+      filmaster_recommendation = FilmasterRecommendation.new(
+        title: 'Tucker & Dale vs Evil', description: 'description', resource_uri: "/1.1/film/tucker-dale-vs-evil/")
+
+      recommendation = filmaster_recommendation.build_recommendation
+      recommendation.title.should == 'Tucker & Dale vs Evil'
+      recommendation.description.should == 'description'
+      recommendation.resource_name.should == 'tucker-dale-vs-evil'
+    end
+  end
 end

@@ -5,7 +5,7 @@ atom_feed do |feed|
   #if @recommendation.present?
     feed.entry @recommendation, published: Date.today do |entry|
       entry.title   @recommendation.title
-      entry.summary @recommendation.summary
+      entry.summary @recommendation.summary, type: 'html'
     end
   #else
     #feed.entry do |entry|

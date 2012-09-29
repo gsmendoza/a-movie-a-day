@@ -19,14 +19,13 @@ describe Recommendation do
       recommendation = Recommendation.new(title: 'title', description: 'description')
       recommendation.summary.should include('description')
       recommendation.summary.should include(recommendation.uri)
-
     end
   end
 
   describe "#uri" do
     it "should be the uri of the recommendation's movie" do
-      recommendation = Recommendation.new(title: 'title', description: 'description')
-      recommendation.uri.should == "http://filmaster.com/film/title"
+      recommendation = Recommendation.new(title: 'title', description: 'description', resource_name: 'resource_name')
+      recommendation.uri.should == "http://filmaster.com/film/resource_name"
     end
   end
 end

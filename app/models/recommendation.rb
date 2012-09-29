@@ -1,9 +1,9 @@
 class Recommendation < ActiveRecord::Base
-  attr_accessible :title, :description
+  attr_accessible :title, :description, :resource_name
 
   def self.latest
     filmaster_recommendation = FilmasterRecommendation.latest
-    Recommendation.new(title: filmaster_recommendation.title, description: filmaster_recommendation.description)
+    filmaster_recommendation.build_recommendation
   end
 
   def summary
@@ -11,6 +11,6 @@ class Recommendation < ActiveRecord::Base
   end
 
   def uri
-    "http://filmaster.com/film/#{title}"
+    "http://filmaster.com/film/#{resource_name}"
   end
 end
