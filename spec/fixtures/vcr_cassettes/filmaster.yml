@@ -1,0 +1,345 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.filmaster.com:80/1.1/user/gsmendoza/recommendations
+    body: ''
+    headers: {}
+  response:
+    status:
+      code: 302
+      message: FOUND
+    headers:
+      Server:
+      - nginx/0.7.65
+      Date:
+      - Sat, 29 Sep 2012 07:04:42 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Location:
+      - http://api.filmaster.com/1.1/user/gsmendoza/recommendations/
+    body: ''
+    http_version:
+  recorded_at: Sat, 29 Sep 2012 07:04:42 GMT
+- request:
+    method: get
+    uri: http://api.filmaster.com:80/1.1/user/gsmendoza/recommendations/
+    body: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/0.7.65
+      Date:
+      - Sat, 29 Sep 2012 07:04:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Authorization, Host, Cookie
+    body: ! "{\n  \"paginator\": {\n    \"prev_uri\": null,\n    \"next_uri\": \"/1.1/user/gsmendoza/recommendations/?page=2\",\n
+      \   \"page\": 1\n  },\n  \"objects\": [\n    {\n      \"video_uri\": \"/1.1/film/leon/links/video/\",\n
+      \     \"image\": \"/static/img/obj/f/d3/35/leon.100xauto.jpg\",\n      \"number_of_votes\":
+      7448,\n      \"checkin_uri\": \"/1.1/film/leon/checkin/\",\n      \"netflix_id\":
+      null,\n      \"guess_rating\": 9.2233495382809441,\n      \"netflix_instant\":
+      false,\n      \"title\": \"Léon\",\n      \"related_uri\": \"/1.1/film/leon/related/\",\n
+      \     \"directors\": [\n        {\n          \"permalink\": \"luc-besson\",\n
+      \         \"surname\": \"Besson\",\n          \"name\": \"Luc\",\n          \"image\":
+      \"/static/img/objects/l/luc-besson.jpg\",\n          \"posts_uri\": \"/1.1/person/luc-besson/posts/\",\n
+      \         \"hires_image\": \"/static/img/objects/hires/l/luc-besson.180xauto.jpg\",\n
+      \         \"films_played_uri\": \"/1.1/person/luc-besson/films-played/\",\n
+      \         \"resource_uri\": \"/1.1/person/luc-besson/\",\n          \"films_directed_uri\":
+      \"/1.1/person/luc-besson/films-directed/\"\n        }\n      ],\n      \"title_localized\":
+      \"Leon\",\n      \"average_score\": \"8.27\",\n      \"description\": \"Leone
+      \\\"Léon\\\" Montana (Jean Reno) is a hitman (or \\\"cleaner,\\\" as he refers
+      to himself) living a solitary life in New York City's Little Italy. His work
+      comes from a mafioso named Tony (Danny Aiello), who operates from the \\\"Supreme
+      Macaroni Company\\\" restaurant. Léon spends his idle time engaging in calisthenics,
+      nurturing a houseplant that early on he describes as his \\\"best friend,\\\"
+      and (in one scene) watching old Gene Kelly musicals. (<a href=\\\"http://en.wikipedia.org/wiki/L%C3%A9on_(film)\\\"><i>Wikipedia</i></a>)\",\n
+      \     \"tags\": [\n        \"action\",\n        \"badgood\",\n        \"child\",\n
+      \       \"crime\",\n        \"crime story\",\n        \"drama\",\n        \"friendshiot
+      with a kid\",\n        \"friendship with a child\",\n        \"paid assasin\",\n
+      \       \"thriller\",\n        \"sensacyjny\"\n      ],\n      \"posts_uri\":
+      \"/1.1/film/leon/posts/\",\n      \"characters_uri\": \"/1.1/film/leon/characters/\",\n
+      \     \"imdb_code\": \"0110413\",\n      \"hires_image\": \"/static/img/obj/f/d3/35/leon.180xauto.jpg\",\n
+      \     \"short_reviews_uri\": \"/1.1/film/leon/short-reviews/\",\n      \"production_country_list\":
+      [\n        \"France\"\n      ],\n      \"links_uri\": \"/1.1/film/leon/links/\",\n
+      \     \"permalink\": \"leon\",\n      \"release_year\": 1994,\n      \"release_date\":
+      null,\n      \"length\": 110,\n      \"resource_uri\": \"/1.1/film/leon/\"\n
+      \   },\n    {\n      \"video_uri\": \"/1.1/film/le-fantome-de-la-liberte/links/video/\",\n
+      \     \"image\": \"/static/img/objects/hires/l/le-fantome-de-la-liberte_2.100xauto.jpg\",\n
+      \     \"number_of_votes\": 116,\n      \"checkin_uri\": \"/1.1/film/le-fantome-de-la-liberte/checkin/\",\n
+      \     \"netflix_id\": \"http://api.netflix.com/catalog/titles/movies/70032556\",\n
+      \     \"guess_rating\": 8.9771067676038072,\n      \"netflix_instant\": false,\n
+      \     \"title\": \"Le Fantôme de la liberté\",\n      \"related_uri\": \"/1.1/film/le-fantome-de-la-liberte/related/\",\n
+      \     \"directors\": [\n        {\n          \"permalink\": \"luis-bunuel\",\n
+      \         \"surname\": \"Buñuel\",\n          \"name\": \"Luis\",\n          \"image\":
+      \"/static/img/objects/l/luis-bunuel.jpg\",\n          \"posts_uri\": \"/1.1/person/luis-bunuel/posts/\",\n
+      \         \"hires_image\": \"/static/img/objects/hires/l/luis-bunuel.180xauto.jpg\",\n
+      \         \"films_played_uri\": \"/1.1/person/luis-bunuel/films-played/\",\n
+      \         \"resource_uri\": \"/1.1/person/luis-bunuel/\",\n          \"films_directed_uri\":
+      \"/1.1/person/luis-bunuel/films-directed/\"\n        }\n      ],\n      \"title_localized\":
+      \"The Phantom of Liberty\",\n      \"average_score\": \"8.01\",\n      \"description\":
+      \"The opening scene is inspired in \\\"The Kiss\\\", a short story by Spanish
+      post-romanticist writer Gustavo Adolfo Bécquer. Toledo, 1808. The city has been
+      occupied by French Napoleonic troops. A firing squad executes a small group
+      of Spanish rebels who cry out \\\"Long live chains!\\\" or \\\"Death to the
+      gabachos!\\\" -a Spanish pejorative term for \\\"Frenchmen\\\"-. The troops
+      are encamped in a Catholic church which they desecrate by drinking, singing,
+      and eating the communion wafers. The captain caresses a statue of Doña Elvira
+      de Castañeda and is knocked unconscious by the statue of her husband, Don Pedro
+      López de Ayala. In revenge, the captain exhumes Doña Elvira's body to find her
+      face has not decomposed; there is a suggestion of intended necrophilia. (Wikipedia)\",\n
+      \     \"tags\": [\n        \"comedy\",\n        \"drama\",\n        \"surrealism\"\n
+      \     ],\n      \"posts_uri\": \"/1.1/film/le-fantome-de-la-liberte/posts/\",\n
+      \     \"characters_uri\": \"/1.1/film/le-fantome-de-la-liberte/characters/\",\n
+      \     \"imdb_code\": \"0161718\",\n      \"hires_image\": \"/static/img/objects/hires/l/le-fantome-de-la-liberte_2.180xauto.jpg\",\n
+      \     \"short_reviews_uri\": \"/1.1/film/le-fantome-de-la-liberte/short-reviews/\",\n
+      \     \"production_country_list\": [],\n      \"links_uri\": \"/1.1/film/le-fantome-de-la-liberte/links/\",\n
+      \     \"permalink\": \"le-fantome-de-la-liberte\",\n      \"release_year\":
+      1974,\n      \"release_date\": null,\n      \"length\": null,\n      \"resource_uri\":
+      \"/1.1/film/le-fantome-de-la-liberte/\"\n    },\n    {\n      \"video_uri\":
+      \"/1.1/film/dekalog-dziesiec/links/video/\",\n      \"image\": \"/static/img/obj/f/d4/b9/dekalog-dziesiec_2.100xauto.jpg\",\n
+      \     \"number_of_votes\": 196,\n      \"checkin_uri\": \"/1.1/film/dekalog-dziesiec/checkin/\",\n
+      \     \"netflix_id\": null,\n      \"guess_rating\": 8.9009344098264496,\n      \"netflix_instant\":
+      false,\n      \"title\": \"Dekalog, dziesiec\",\n      \"related_uri\": \"/1.1/film/dekalog-dziesiec/related/\",\n
+      \     \"directors\": [\n        {\n          \"permalink\": \"krzysztof-kieslowski\",\n
+      \         \"surname\": \"Kieslowski\",\n          \"name\": \"Krzysztof\",\n
+      \         \"image\": \"/static/img/objects/k/krzysztof-kieslowski.jpg\",\n          \"posts_uri\":
+      \"/1.1/person/krzysztof-kieslowski/posts/\",\n          \"hires_image\": \"/static/img/obj/p/30/89/krzysztof-kieslowski.180xauto.jpg\",\n
+      \         \"films_played_uri\": \"/1.1/person/krzysztof-kieslowski/films-played/\",\n
+      \         \"resource_uri\": \"/1.1/person/krzysztof-kieslowski/\",\n          \"films_directed_uri\":
+      \"/1.1/person/krzysztof-kieslowski/films-directed/\"\n        }\n      ],\n
+      \     \"title_localized\": \"Decalogue: Ten\",\n      \"average_score\": \"8.04\",\n
+      \     \"description\": \"Thou shalt not covet thy neighbour's goods. Two brothers
+      (Jerzy Stuhr and Zbigniew Zamachowski) inherit a stamp collection but give a
+      most valuable series away before realizing its extremely high worth. When they
+      realize this they try to get it back... (Wikipedia)\",\n      \"tags\": [\n
+      \       \"decalogue\",\n        \"drama\",\n        \"stamps\",\n        \"zbigniew
+      preisner\",\n        \"psychology\"\n      ],\n      \"posts_uri\": \"/1.1/film/dekalog-dziesiec/posts/\",\n
+      \     \"characters_uri\": \"/1.1/film/dekalog-dziesiec/characters/\",\n      \"imdb_code\":
+      \"0094983\",\n      \"hires_image\": \"/static/img/obj/f/d4/b9/dekalog-dziesiec_2.180xauto.jpg\",\n
+      \     \"short_reviews_uri\": \"/1.1/film/dekalog-dziesiec/short-reviews/\",\n
+      \     \"production_country_list\": [\n        \"Poland\"\n      ],\n      \"links_uri\":
+      \"/1.1/film/dekalog-dziesiec/links/\",\n      \"permalink\": \"dekalog-dziesiec\",\n
+      \     \"release_year\": 1989,\n      \"release_date\": null,\n      \"length\":
+      57,\n      \"resource_uri\": \"/1.1/film/dekalog-dziesiec/\"\n    },\n    {\n
+      \     \"video_uri\": \"/1.1/film/heima/links/video/\",\n      \"image\": \"/static/img/obj/f/a0/32/heima.100xauto.jpg\",\n
+      \     \"number_of_votes\": 144,\n      \"checkin_uri\": \"/1.1/film/heima/checkin/\",\n
+      \     \"netflix_id\": null,\n      \"guess_rating\": 8.8784369121187581,\n      \"netflix_instant\":
+      false,\n      \"title\": \"Heima\",\n      \"related_uri\": \"/1.1/film/heima/related/\",\n
+      \     \"directors\": [\n        {\n          \"permalink\": \"dean-deblois\",\n
+      \         \"surname\": \"DeBlois\",\n          \"name\": \"Dean\",\n          \"image\":
+      \"/static/img/default_actor.png\",\n          \"posts_uri\": \"/1.1/person/dean-deblois/posts/\",\n
+      \         \"hires_image\": \"/static/img/default_actor.png\",\n          \"films_played_uri\":
+      \"/1.1/person/dean-deblois/films-played/\",\n          \"resource_uri\": \"/1.1/person/dean-deblois/\",\n
+      \         \"films_directed_uri\": \"/1.1/person/dean-deblois/films-directed/\"\n
+      \       }\n      ],\n      \"title_localized\": \"At home\",\n      \"average_score\":
+      \"7.89\",\n      \"description\": \"Heima (English: At home) is a documentary
+      film and double DVD set about the tour around Iceland in the summer of 2006
+      of the band Sigur Rós. During the tour the band played two big open-air concerts
+      at Miklatún - Reykjavík (30 July) and Ásbyrgi (4 August), as well as small scale
+      concerts at Ólafsvík (24 July), Ísafjörður (26 July), Djúpavík (27 July), Háls,
+      Öxnadalur (28 July) and Seyðisfjörður (3 August). In addition, a protest concert
+      against the Kárahnjúkar dam was performed at Snæfellsskála (3 August). The documentary
+      also includes footage of an acoustic concert played for family and friends at
+      Gamla Borg, a coffee shop in the small town Borg, on 22 April 2007.\\n\\nThe
+      documentary premiered in Iceland at the Reykjavík International Film Festival
+      opening day, 27 September 2007. Heima was released 5 November 2007 (4 December
+      in North America) in two editions, one including atmospheric photos in a photobook
+      documenting the tour.\\n\\nThe DVD has sold 5,000 copies in Canada earning it
+      a Gold Award under the Video Certifications.\\n\\nOn May 27, 2011 the band released
+      an official HD-quality version of Heima on their website, available as digital
+      download in Quicktime format. (Wikipedia)\",\n      \"tags\": [\n        \"documentary\",\n
+      \       \"iceland\",\n        \"music\"\n      ],\n      \"posts_uri\": \"/1.1/film/heima/posts/\",\n
+      \     \"characters_uri\": \"/1.1/film/heima/characters/\",\n      \"imdb_code\":
+      \"1094594\",\n      \"hires_image\": \"/static/img/obj/f/a0/32/heima.180xauto.jpg\",\n
+      \     \"short_reviews_uri\": \"/1.1/film/heima/short-reviews/\",\n      \"production_country_list\":
+      [],\n      \"links_uri\": \"/1.1/film/heima/links/\",\n      \"permalink\":
+      \"heima\",\n      \"release_year\": 2007,\n      \"release_date\": null,\n      \"length\":
+      97,\n      \"resource_uri\": \"/1.1/film/heima/\"\n    },\n    {\n      \"video_uri\":
+      \"/1.1/film/gadajace-glowy/links/video/\",\n      \"image\": \"/static/img/obj/f/67/68/gadajace-glowy.100xauto.jpg\",\n
+      \     \"number_of_votes\": 196,\n      \"checkin_uri\": \"/1.1/film/gadajace-glowy/checkin/\",\n
+      \     \"netflix_id\": null,\n      \"guess_rating\": 8.8701922243427891,\n      \"netflix_instant\":
+      false,\n      \"title\": \"Gadajace glowy\",\n      \"related_uri\": \"/1.1/film/gadajace-glowy/related/\",\n
+      \     \"directors\": [\n        {\n          \"permalink\": \"krzysztof-kieslowski\",\n
+      \         \"surname\": \"Kieslowski\",\n          \"name\": \"Krzysztof\",\n
+      \         \"image\": \"/static/img/objects/k/krzysztof-kieslowski.jpg\",\n          \"posts_uri\":
+      \"/1.1/person/krzysztof-kieslowski/posts/\",\n          \"hires_image\": \"/static/img/obj/p/30/89/krzysztof-kieslowski.180xauto.jpg\",\n
+      \         \"films_played_uri\": \"/1.1/person/krzysztof-kieslowski/films-played/\",\n
+      \         \"resource_uri\": \"/1.1/person/krzysztof-kieslowski/\",\n          \"films_directed_uri\":
+      \"/1.1/person/krzysztof-kieslowski/films-directed/\"\n        }\n      ],\n
+      \     \"title_localized\": \"Talking heads\",\n      \"average_score\": \"8.04\",\n
+      \     \"description\": \"In 1979 Kieślowski did a street survey with hundreds
+      of Polas. He asked everyone only four questions: when were you born? who are
+      you? what is most important for you? what would you like to be in the future?\\nHe
+      then selected 44 persons, sorted them chronologically from a newborn baby to
+      a 100-year old woman and that's how a 14-minute documentary was created. (Wikipedia)\",\n
+      \     \"tags\": [\n        \"documentary\",\n        \"short\",\n        \"poland\"\n
+      \     ],\n      \"posts_uri\": \"/1.1/film/gadajace-glowy/posts/\",\n      \"characters_uri\":
+      \"/1.1/film/gadajace-glowy/characters/\",\n      \"imdb_code\": \"0080770\",\n
+      \     \"hires_image\": \"/static/img/obj/f/67/68/gadajace-glowy.180xauto.jpg\",\n
+      \     \"short_reviews_uri\": \"/1.1/film/gadajace-glowy/short-reviews/\",\n
+      \     \"production_country_list\": [],\n      \"links_uri\": \"/1.1/film/gadajace-glowy/links/\",\n
+      \     \"permalink\": \"gadajace-glowy\",\n      \"release_year\": 1980,\n      \"release_date\":
+      null,\n      \"length\": 15,\n      \"resource_uri\": \"/1.1/film/gadajace-glowy/\"\n
+      \   },\n    {\n      \"video_uri\": \"/1.1/film/dekalog-szesc/links/video/\",\n
+      \     \"image\": \"/static/img/obj/f/a5/66/dekalog-szesc_2.100xauto.jpg\",\n
+      \     \"number_of_votes\": 226,\n      \"checkin_uri\": \"/1.1/film/dekalog-szesc/checkin/\",\n
+      \     \"netflix_id\": null,\n      \"guess_rating\": 8.869027233885614,\n      \"netflix_instant\":
+      false,\n      \"title\": \"Dekalog, szesc\",\n      \"related_uri\": \"/1.1/film/dekalog-szesc/related/\",\n
+      \     \"directors\": [\n        {\n          \"permalink\": \"krzysztof-kieslowski\",\n
+      \         \"surname\": \"Kieslowski\",\n          \"name\": \"Krzysztof\",\n
+      \         \"image\": \"/static/img/objects/k/krzysztof-kieslowski.jpg\",\n          \"posts_uri\":
+      \"/1.1/person/krzysztof-kieslowski/posts/\",\n          \"hires_image\": \"/static/img/obj/p/30/89/krzysztof-kieslowski.180xauto.jpg\",\n
+      \         \"films_played_uri\": \"/1.1/person/krzysztof-kieslowski/films-played/\",\n
+      \         \"resource_uri\": \"/1.1/person/krzysztof-kieslowski/\",\n          \"films_directed_uri\":
+      \"/1.1/person/krzysztof-kieslowski/films-directed/\"\n        }\n      ],\n
+      \     \"title_localized\": \"Decalogue: Six\",\n      \"average_score\": \"8.15\",\n
+      \     \"description\": \"Thou shalt not commit adultery. A naive young man (Olaf
+      Lubaszenko) spies on a stranger (Grażyna Szapołowska) through her window and
+      falls in love with her. An extended 86 minutes feature version is Krótki film
+      o miłości (A Short Film About Love). (Wikipedia)\",\n      \"tags\": [\n        \"drama\",\n
+      \       \"love\",\n        \"zbigniew preisner\",\n        \"decalogue\",\n
+      \       \"platonic love\"\n      ],\n      \"posts_uri\": \"/1.1/film/dekalog-szesc/posts/\",\n
+      \     \"characters_uri\": \"/1.1/film/dekalog-szesc/characters/\",\n      \"imdb_code\":
+      \"0094988\",\n      \"hires_image\": \"/static/img/obj/f/a5/66/dekalog-szesc_2.180xauto.jpg\",\n
+      \     \"short_reviews_uri\": \"/1.1/film/dekalog-szesc/short-reviews/\",\n      \"production_country_list\":
+      [\n        \"Poland\"\n      ],\n      \"links_uri\": \"/1.1/film/dekalog-szesc/links/\",\n
+      \     \"permalink\": \"dekalog-szesc\",\n      \"release_year\": 1990,\n      \"release_date\":
+      null,\n      \"length\": 58,\n      \"resource_uri\": \"/1.1/film/dekalog-szesc/\"\n
+      \   },\n    {\n      \"video_uri\": \"/1.1/film/dekalog/links/video/\",\n      \"image\":
+      \"/static/img/obj/f/3f/f9/dekalog.100xauto.jpg\",\n      \"number_of_votes\":
+      398,\n      \"checkin_uri\": \"/1.1/film/dekalog/checkin/\",\n      \"netflix_id\":
+      \"http://api.netflix.com/catalog/titles/series/60030853\",\n      \"guess_rating\":
+      8.8528298746928087,\n      \"netflix_instant\": false,\n      \"title\": \"Dekalog\",\n
+      \     \"related_uri\": \"/1.1/film/dekalog/related/\",\n      \"directors\":
+      [\n        {\n          \"permalink\": \"krzysztof-kieslowski\",\n          \"surname\":
+      \"Kieslowski\",\n          \"name\": \"Krzysztof\",\n          \"image\": \"/static/img/objects/k/krzysztof-kieslowski.jpg\",\n
+      \         \"posts_uri\": \"/1.1/person/krzysztof-kieslowski/posts/\",\n          \"hires_image\":
+      \"/static/img/obj/p/30/89/krzysztof-kieslowski.180xauto.jpg\",\n          \"films_played_uri\":
+      \"/1.1/person/krzysztof-kieslowski/films-played/\",\n          \"resource_uri\":
+      \"/1.1/person/krzysztof-kieslowski/\",\n          \"films_directed_uri\": \"/1.1/person/krzysztof-kieslowski/films-directed/\"\n
+      \       }\n      ],\n      \"title_localized\": \"The Decalogue\",\n      \"average_score\":
+      \"8.28\",\n      \"description\": \"One of the greatest and most ambitious cinematic
+      achievements, Krzysztof Kieslowski's THE DECALOGUE consists of 10 short films
+      inspired by the Ten Commandments. Each film takes place in and around the same
+      area of late-20th-century Warsaw, provoking timeless ethical and moral questions
+      for this era. Specifically, the films address personal issues dealing with family,
+      friends, love, life, and death. Winner of awards from the Venice, São Paulo,
+      and Cannes film festivals and originally made for Polish television, Kieslowski's
+      masterwork has been screened all over the world to international acclaim. The
+      video release will give viewers the opportunity to revisit each episode and
+      discover characters from the other films that pop up in the background of the
+      current story and might also help to better explain the mysterious presence
+      of Artur Barcis, a quiet onlooker who might be an angel or a devil. Kieslowski,
+      collaborating with cowriter Krzysztof Piesiewicz, has made a series of films
+      that feel small and intimate yet are actually epic commentaries on modern human
+      existence, making THE DECALOGUE a lasting work of art. (RottenTomatoes)\",\n
+      \     \"tags\": [\n        \"decalogue\",\n        \"drama\",\n        \"mini-series\"\n
+      \     ],\n      \"posts_uri\": \"/1.1/film/dekalog/posts/\",\n      \"characters_uri\":
+      \"/1.1/film/dekalog/characters/\",\n      \"imdb_code\": \"0092337\",\n      \"hires_image\":
+      \"/static/img/obj/f/3f/f9/dekalog.180xauto.jpg\",\n      \"short_reviews_uri\":
+      \"/1.1/film/dekalog/short-reviews/\",\n      \"production_country_list\": [\n
+      \       \"Poland\"\n      ],\n      \"links_uri\": \"/1.1/film/dekalog/links/\",\n
+      \     \"permalink\": \"dekalog\",\n      \"release_year\": 1989,\n      \"release_date\":
+      null,\n      \"length\": 55,\n      \"resource_uri\": \"/1.1/film/dekalog/\"\n
+      \   },\n    {\n      \"video_uri\": \"/1.1/film/pociag/links/video/\",\n      \"image\":
+      \"/static/img/obj/f/ba/26/pociag_3.100xauto.jpg\",\n      \"number_of_votes\":
+      130,\n      \"checkin_uri\": \"/1.1/film/pociag/checkin/\",\n      \"netflix_id\":
+      \"http://api.netflix.com/catalog/titles/movies/70057933\",\n      \"guess_rating\":
+      8.8349579761864199,\n      \"netflix_instant\": false,\n      \"title\": \"Pociag\",\n
+      \     \"related_uri\": \"/1.1/film/pociag/related/\",\n      \"directors\":
+      [\n        {\n          \"permalink\": \"jerzy-kawalerowicz\",\n          \"surname\":
+      \"Kawalerowicz\",\n          \"name\": \"Jerzy\",\n          \"image\": \"/static/img/default_actor.png\",\n
+      \         \"posts_uri\": \"/1.1/person/jerzy-kawalerowicz/posts/\",\n          \"hires_image\":
+      \"/static/img/default_actor.png\",\n          \"films_played_uri\": \"/1.1/person/jerzy-kawalerowicz/films-played/\",\n
+      \         \"resource_uri\": \"/1.1/person/jerzy-kawalerowicz/\",\n          \"films_directed_uri\":
+      \"/1.1/person/jerzy-kawalerowicz/films-directed/\"\n        }\n      ],\n      \"title_localized\":
+      \"Night Train\",\n      \"average_score\": \"7.95\",\n      \"description\":
+      \"A man, Jerzy, enters a train set for the Baltic coast. He seems to be on the
+      run from something. He has to share sleeping-compartment with a woman who also
+      seems to be on the run. Eventually we get to know that the police are looking
+      for an escaped murderer. Is it really Jerzy they are looking for? (IMDB)\",\n
+      \     \"tags\": [\n        \"drama\",\n        \"humor\",\n        \"journey\",\n
+      \       \"mystery\",\n        \"psychology\",\n        \"relations\",\n        \"thriller\",\n
+      \       \"train\",\n        \"conversation\"\n      ],\n      \"posts_uri\":
+      \"/1.1/film/pociag/posts/\",\n      \"characters_uri\": \"/1.1/film/pociag/characters/\",\n
+      \     \"imdb_code\": \"0053176\",\n      \"hires_image\": \"/static/img/obj/f/ba/26/pociag_3.180xauto.jpg\",\n
+      \     \"short_reviews_uri\": \"/1.1/film/pociag/short-reviews/\",\n      \"production_country_list\":
+      [\n        \"Poland\"\n      ],\n      \"links_uri\": \"/1.1/film/pociag/links/\",\n
+      \     \"permalink\": \"pociag\",\n      \"release_year\": 1959,\n      \"release_date\":
+      null,\n      \"length\": 99,\n      \"resource_uri\": \"/1.1/film/pociag/\"\n
+      \   },\n    {\n      \"video_uri\": \"/1.1/film/le-salaire-de-la-peur/links/video/\",\n
+      \     \"image\": \"/static/img/obj/f/bf/9e/le-salaire-de-la-peur.100xauto.jpg\",\n
+      \     \"number_of_votes\": 124,\n      \"checkin_uri\": \"/1.1/film/le-salaire-de-la-peur/checkin/\",\n
+      \     \"netflix_id\": \"http://api.netflix.com/catalog/titles/movies/1100354\",\n
+      \     \"guess_rating\": 8.8168395777958342,\n      \"netflix_instant\": false,\n
+      \     \"title\": \"Le Salaire de la peur\",\n      \"related_uri\": \"/1.1/film/le-salaire-de-la-peur/related/\",\n
+      \     \"directors\": [\n        {\n          \"permalink\": \"henri-georges-clouzot\",\n
+      \         \"surname\": \"Clouzot\",\n          \"name\": \"Henri-Georges\",\n
+      \         \"image\": \"/static/img/default_actor.png\",\n          \"posts_uri\":
+      \"/1.1/person/henri-georges-clouzot/posts/\",\n          \"hires_image\": \"/static/img/default_actor.png\",\n
+      \         \"films_played_uri\": \"/1.1/person/henri-georges-clouzot/films-played/\",\n
+      \         \"resource_uri\": \"/1.1/person/henri-georges-clouzot/\",\n          \"films_directed_uri\":
+      \"/1.1/person/henri-georges-clouzot/films-directed/\"\n        }\n      ],\n
+      \     \"title_localized\": \"The Wages of Fear\",\n      \"average_score\":
+      \"7.62\",\n      \"description\": \"The film centers on the fates of a handful
+      of men who are stuck in a South American town.  The town, Las Piedras, is isolated
+      due to the surrounding desert but it maintains contact with the outside world
+      through a small airport.  The airfare, however, is beyond the means of the main
+      characters (many of whom are also noncitizens without proper paperwork for work
+      or travel).  There is little opportunity for employment aside from the American
+      corporation that dominates the town.  The company, Southern Oil Company, called
+      SOC, operates the nearby oil fields and owns a walled compound within the town.
+      \ SOC is accused of unethical practices such as exploiting local workers and
+      taking the law into its own hands.\",\n      \"tags\": [\n        \"action\",\n
+      \       \"adventure\",\n        \"crime\",\n        \"danger\",\n        \"desperation\",\n
+      \       \"drama\",\n        \"screen version\",\n        \"seclusion\",\n        \"thriller\",\n
+      \       \"transport\",\n        \"truck\",\n        \"sensacyjny\"\n      ],\n
+      \     \"posts_uri\": \"/1.1/film/le-salaire-de-la-peur/posts/\",\n      \"characters_uri\":
+      \"/1.1/film/le-salaire-de-la-peur/characters/\",\n      \"imdb_code\": \"0046268\",\n
+      \     \"hires_image\": \"/static/img/obj/f/bf/9e/le-salaire-de-la-peur.180xauto.jpg\",\n
+      \     \"short_reviews_uri\": \"/1.1/film/le-salaire-de-la-peur/short-reviews/\",\n
+      \     \"production_country_list\": [],\n      \"links_uri\": \"/1.1/film/le-salaire-de-la-peur/links/\",\n
+      \     \"permalink\": \"le-salaire-de-la-peur\",\n      \"release_year\": 1953,\n
+      \     \"release_date\": null,\n      \"length\": null,\n      \"resource_uri\":
+      \"/1.1/film/le-salaire-de-la-peur/\"\n    },\n    {\n      \"video_uri\": \"/1.1/film/baraka/links/video/\",\n
+      \     \"image\": \"/static/img/obj/f/7c/b1/baraka.100xauto.jpg\",\n      \"number_of_votes\":
+      147,\n      \"checkin_uri\": \"/1.1/film/baraka/checkin/\",\n      \"netflix_id\":
+      \"http://api.netflix.com/catalog/titles/movies/283136\",\n      \"guess_rating\":
+      8.8080663921187643,\n      \"netflix_instant\": false,\n      \"title\": \"Baraka\",\n
+      \     \"related_uri\": \"/1.1/film/baraka/related/\",\n      \"directors\":
+      [\n        {\n          \"permalink\": \"ron-fricke\",\n          \"surname\":
+      \"Fricke\",\n          \"name\": \"Ron\",\n          \"image\": \"/static/img/default_actor.png\",\n
+      \         \"posts_uri\": \"/1.1/person/ron-fricke/posts/\",\n          \"hires_image\":
+      \"/static/img/default_actor.png\",\n          \"films_played_uri\": \"/1.1/person/ron-fricke/films-played/\",\n
+      \         \"resource_uri\": \"/1.1/person/ron-fricke/\",\n          \"films_directed_uri\":
+      \"/1.1/person/ron-fricke/films-directed/\"\n        }\n      ],\n      \"title_localized\":
+      \"Baraka\",\n      \"average_score\": \"7.97\",\n      \"description\": \"Baraka
+      has no plot, no storyline, no actors, no dialogue nor any voice-over. Instead,
+      the film uses themes to present new steps and evoke emotion through pure cinema.
+      Baraka is a kaleidoscopic, global compilation of both natural events and by
+      fate, life and activities of humanity on Earth. (Wikipedia)\",\n      \"tags\":
+      [\n        \"documentary\",\n        \"war\",\n        \"people\",\n        \"earth\"\n
+      \     ],\n      \"posts_uri\": \"/1.1/film/baraka/posts/\",\n      \"characters_uri\":
+      \"/1.1/film/baraka/characters/\",\n      \"imdb_code\": \"0103767\",\n      \"hires_image\":
+      \"/static/img/obj/f/7c/b1/baraka.180xauto.jpg\",\n      \"short_reviews_uri\":
+      \"/1.1/film/baraka/short-reviews/\",\n      \"production_country_list\": [],\n
+      \     \"links_uri\": \"/1.1/film/baraka/links/\",\n      \"permalink\": \"baraka\",\n
+      \     \"release_year\": 1992,\n      \"release_date\": null,\n      \"length\":
+      96,\n      \"resource_uri\": \"/1.1/film/baraka/\"\n    }\n  ]\n}"
+    http_version:
+  recorded_at: Sat, 29 Sep 2012 07:04:48 GMT
+recorded_with: VCR 2.0.0.beta2
