@@ -38,7 +38,7 @@ group :test do
   gem "rspec-rails"
 
   # Given/When/Then steps for RSpec examples
-  gem "rspec-example_steps"
+  gem "rspec-example_steps", require: nil
 
   gem 'vcr'
   gem 'webmock'
